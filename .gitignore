@@ -1,0 +1,67 @@
+# =========================
+# Unity generated folders
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# =========================
+# Unity cache & artifacts
+# =========================
+MemoryCaptures/
+Recordings/
+
+# =========================
+# Visual Studio / Rider / VSCode
+# =========================
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Rider
+.idea/
+
+# VSCode
+.vscode/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Unity meta handling
+# =========================
+# IMPORTANT: Keep meta files!
+!*.meta
+
+# =========================
+# Builds (optional: keep if you want builds tracked)
+# =========================
+# Uncomment if you want to ignore builds:
+# Builds/
+
+# =========================
+# Addressables / Asset Bundles
+# =========================
+ServerData/
+*.bundle
+*.unitypackage
+
+# =========================
+# Crash reports
+# =========================
+sysinfo.txt
