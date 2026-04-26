@@ -19,7 +19,7 @@ public class World : MonoBehaviour
         int seed = m_UseRandomSeed ? System.DateTime.Now.GetHashCode() : m_Seed;
         Random.InitState(seed);
 
-        NoiseOffset = new Vector2(Random.Range(-100000f, 100000f),Random.Range(-100000f, 100000f));
+        NoiseOffset = new Vector2(Random.Range(-100000f, 100000f), Random.Range(-100000f, 100000f));
     }
     private void Start()
     {
@@ -44,7 +44,7 @@ public class World : MonoBehaviour
         GameObject chunkObj = Instantiate(m_ChunkPrefab, transform);
 
         Chunk chunk = chunkObj.GetComponent<Chunk>();
-        chunk.InitialiseTerrain(XPos, ZPos, m_AtlasMaterial,this);
+        chunk.InitialiseTerrain(XPos, ZPos, m_AtlasMaterial, this);
 
         m_Chunks[XPos, ZPos] = chunk;
     }
